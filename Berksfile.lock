@@ -1,0 +1,9 @@
+DEPENDENCIES
+  selinux
+  yum-epel
+
+GRAPH
+  selinux (0.8.0)
+  yum (3.5.2)
+  yum-epel (0.6.0)
+    yum (~> 3.0)

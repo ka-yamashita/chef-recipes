@@ -1,0 +1,13 @@
+{
+  "host": {
+    "name": "php4.local"
+  },
+  "run_list":[
+    "recipe[selinux::disabled]",
+    "recipe[yum-epel]",
+    "recipe[yum-base]",
+    "recipe[apache2.2]",
+    "recipe[php4.4]"
+  ]
+}
+
